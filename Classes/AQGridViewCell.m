@@ -70,7 +70,6 @@
 		_cellFlags.selectionStyle = AQGridViewCellSelectionStyleGray;
     _cellFlags.setShadowPath = 0;
 	_selectionColorInfo = CFDictionaryCreateMutable( kCFAllocatorDefault, 0, &kCFTypeDictionaryKeyCallBacks,  &kCFTypeDictionaryValueCallBacks );
-	self.backgroundColor = [UIColor whiteColor];
 	
 	_selectionGlowShadowRadius = 12.0f;
 	
@@ -87,7 +86,6 @@
 	else
 		_cellFlags.selectionStyle = AQGridViewCellSelectionStyleGray;
 	_selectionColorInfo = CFDictionaryCreateMutable( kCFAllocatorDefault, 0, &kCFTypeDictionaryKeyCallBacks,  &kCFTypeDictionaryValueCallBacks );
-	self.backgroundColor = [UIColor whiteColor];
     
     [super awakeFromNib];
 }
